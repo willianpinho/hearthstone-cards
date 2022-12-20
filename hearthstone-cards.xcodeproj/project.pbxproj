@@ -9,13 +9,41 @@
 /* Begin PBXBuildFile section */
 		FCD9B2AF294F4E28006B0E9F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD9B2AE294F4E28006B0E9F /* AppDelegate.swift */; };
 		FCD9B2B1294F4E28006B0E9F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD9B2B0294F4E28006B0E9F /* SceneDelegate.swift */; };
-		FCD9B2B3294F4E28006B0E9F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD9B2B2294F4E28006B0E9F /* ViewController.swift */; };
-		FCD9B2B6294F4E28006B0E9F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCD9B2B4294F4E28006B0E9F /* Main.storyboard */; };
 		FCD9B2B8294F4E2B006B0E9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCD9B2B7294F4E2B006B0E9F /* Assets.xcassets */; };
 		FCD9B2BB294F4E2B006B0E9F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCD9B2B9294F4E2B006B0E9F /* LaunchScreen.storyboard */; };
 		FCD9B2C6294F4E2C006B0E9F /* hearthstone_cardsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD9B2C5294F4E2C006B0E9F /* hearthstone_cardsTests.swift */; };
 		FCD9B2D0294F4E2C006B0E9F /* hearthstone_cardsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD9B2CF294F4E2C006B0E9F /* hearthstone_cardsUITests.swift */; };
 		FCD9B2D2294F4E2C006B0E9F /* hearthstone_cardsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD9B2D1294F4E2C006B0E9F /* hearthstone_cardsUITestsLaunchTests.swift */; };
+		FCD9B2EB294F52C8006B0E9F /* CodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD9B2EA294F52C8006B0E9F /* CodeView.swift */; };
+		FCD9B2EE294F5318006B0E9F /* UIView+Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD9B2ED294F5318006B0E9F /* UIView+Layout.swift */; };
+		FCD9B2F129509212006B0E9F /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = FCD9B2F029509212006B0E9F /* Alamofire */; };
+		FCD9B2F62950932B006B0E9F /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD9B2F52950932B006B0E9F /* HomeViewModel.swift */; };
+		FCD9B2F829509336006B0E9F /* HomeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD9B2F729509336006B0E9F /* HomeService.swift */; };
+		FCD9B2FA29509349006B0E9F /* HomeUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD9B2F929509349006B0E9F /* HomeUseCase.swift */; };
+		FCD9B2FD2950935F006B0E9F /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD9B2FC2950935F006B0E9F /* Card.swift */; };
+		FCD9B30029509B3E006B0E9F /* Mechanic.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD9B2FF29509B3E006B0E9F /* Mechanic.swift */; };
+		FCD9B30329509D6F006B0E9F /* BaseAlamofireProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD9B30229509D6F006B0E9F /* BaseAlamofireProvider.swift */; };
+		FCD9B30629509DC0006B0E9F /* NetworkCheckerInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD9B30529509DC0006B0E9F /* NetworkCheckerInterceptor.swift */; };
+		FCD9B30929509E30006B0E9F /* NetworkCheckerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD9B30829509E30006B0E9F /* NetworkCheckerManager.swift */; };
+		FCD9B3162950D553006B0E9F /* CardService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD9B3152950D553006B0E9F /* CardService.swift */; };
+		FCD9B3182950D55F006B0E9F /* CardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD9B3172950D55F006B0E9F /* CardViewController.swift */; };
+		FCD9B31A2950D567006B0E9F /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD9B3192950D567006B0E9F /* CardView.swift */; };
+		FCD9B31C2950D570006B0E9F /* CardUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD9B31B2950D570006B0E9F /* CardUseCase.swift */; };
+		FCD9B31E2950D578006B0E9F /* CardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD9B31D2950D578006B0E9F /* CardViewModel.swift */; };
+		FCD9B32229510925006B0E9F /* MainModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD9B32129510925006B0E9F /* MainModule.swift */; };
+		FCD9B3252951095F006B0E9F /* Swinject in Frameworks */ = {isa = PBXBuildFile; productRef = FCD9B3242951095F006B0E9F /* Swinject */; };
+		FCD9B32829510996006B0E9F /* ApplicationContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD9B32729510996006B0E9F /* ApplicationContainer.swift */; };
+		FCD9B32A295109B5006B0E9F /* Scope.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD9B329295109B5006B0E9F /* Scope.swift */; };
+		FCD9B32C29510B88006B0E9F /* Resolver+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD9B32B29510B88006B0E9F /* Resolver+Extension.swift */; };
+		FCD9B32E29510CBB006B0E9F /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD9B32D29510CBB006B0E9F /* UIViewController+Extension.swift */; };
+		FCD9B33029510D6D006B0E9F /* Injected.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD9B32F29510D6D006B0E9F /* Injected.swift */; };
+		FCD9B33329510EE0006B0E9F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD9B33129510EE0006B0E9F /* HomeViewController.swift */; };
+		FCD9B33629512708006B0E9F /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD9B33529512708006B0E9F /* HomeView.swift */; };
+		FCD9B33A29514300006B0E9F /* CardImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD9B33829514300006B0E9F /* CardImageTableViewCell.swift */; };
+		FCD9B33B29514300006B0E9F /* CardImageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCD9B33929514300006B0E9F /* CardImageTableViewCell.xib */; };
+		FCD9B33D2951439E006B0E9F /* UITableView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD9B33C2951439E006B0E9F /* UITableView+Extension.swift */; };
+		FCD9B33F2951454C006B0E9F /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD9B33E2951454C006B0E9F /* UIImageView+Extension.swift */; };
+		FCD9B342295147D5006B0E9F /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = FCD9B341295147D5006B0E9F /* Kingfisher */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +67,6 @@
 		FCD9B2AB294F4E28006B0E9F /* hearthstone-cards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hearthstone-cards.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCD9B2AE294F4E28006B0E9F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FCD9B2B0294F4E28006B0E9F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FCD9B2B2294F4E28006B0E9F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FCD9B2B5294F4E28006B0E9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FCD9B2B7294F4E2B006B0E9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FCD9B2BA294F4E2B006B0E9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FCD9B2BC294F4E2B006B0E9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +75,33 @@
 		FCD9B2CB294F4E2C006B0E9F /* hearthstone-cardsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "hearthstone-cardsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCD9B2CF294F4E2C006B0E9F /* hearthstone_cardsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hearthstone_cardsUITests.swift; sourceTree = "<group>"; };
 		FCD9B2D1294F4E2C006B0E9F /* hearthstone_cardsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hearthstone_cardsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FCD9B2EA294F52C8006B0E9F /* CodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeView.swift; sourceTree = "<group>"; };
+		FCD9B2ED294F5318006B0E9F /* UIView+Layout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Layout.swift"; sourceTree = "<group>"; };
+		FCD9B2F52950932B006B0E9F /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		FCD9B2F729509336006B0E9F /* HomeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeService.swift; sourceTree = "<group>"; };
+		FCD9B2F929509349006B0E9F /* HomeUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeUseCase.swift; sourceTree = "<group>"; };
+		FCD9B2FC2950935F006B0E9F /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		FCD9B2FF29509B3E006B0E9F /* Mechanic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mechanic.swift; sourceTree = "<group>"; };
+		FCD9B30229509D6F006B0E9F /* BaseAlamofireProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseAlamofireProvider.swift; sourceTree = "<group>"; };
+		FCD9B30529509DC0006B0E9F /* NetworkCheckerInterceptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkCheckerInterceptor.swift; sourceTree = "<group>"; };
+		FCD9B30829509E30006B0E9F /* NetworkCheckerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkCheckerManager.swift; sourceTree = "<group>"; };
+		FCD9B3152950D553006B0E9F /* CardService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardService.swift; sourceTree = "<group>"; };
+		FCD9B3172950D55F006B0E9F /* CardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewController.swift; sourceTree = "<group>"; };
+		FCD9B3192950D567006B0E9F /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		FCD9B31B2950D570006B0E9F /* CardUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardUseCase.swift; sourceTree = "<group>"; };
+		FCD9B31D2950D578006B0E9F /* CardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewModel.swift; sourceTree = "<group>"; };
+		FCD9B32129510925006B0E9F /* MainModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainModule.swift; sourceTree = "<group>"; };
+		FCD9B32729510996006B0E9F /* ApplicationContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationContainer.swift; sourceTree = "<group>"; };
+		FCD9B329295109B5006B0E9F /* Scope.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scope.swift; sourceTree = "<group>"; };
+		FCD9B32B29510B88006B0E9F /* Resolver+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Resolver+Extension.swift"; sourceTree = "<group>"; };
+		FCD9B32D29510CBB006B0E9F /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		FCD9B32F29510D6D006B0E9F /* Injected.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Injected.swift; sourceTree = "<group>"; };
+		FCD9B33129510EE0006B0E9F /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		FCD9B33529512708006B0E9F /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		FCD9B33829514300006B0E9F /* CardImageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardImageTableViewCell.swift; sourceTree = "<group>"; };
+		FCD9B33929514300006B0E9F /* CardImageTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardImageTableViewCell.xib; sourceTree = "<group>"; };
+		FCD9B33C2951439E006B0E9F /* UITableView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Extension.swift"; sourceTree = "<group>"; };
+		FCD9B33E2951454C006B0E9F /* UIImageView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +109,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCD9B342295147D5006B0E9F /* Kingfisher in Frameworks */,
+				FCD9B2F129509212006B0E9F /* Alamofire in Frameworks */,
+				FCD9B3252951095F006B0E9F /* Swinject in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,10 +155,15 @@
 		FCD9B2AD294F4E28006B0E9F /* hearthstone-cards */ = {
 			isa = PBXGroup;
 			children = (
+				FCD9B31F2951090B006B0E9F /* Dependency */,
+				FCD9B30729509E22006B0E9F /* Manager */,
+				FCD9B30429509DB6006B0E9F /* Interceptor */,
+				FCD9B30129509D5E006B0E9F /* Provider */,
+				FCD9B2EC294F52FC006B0E9F /* Extensions */,
+				FCD9B2E9294F52B7006B0E9F /* Protocols */,
+				FCD9B2DE294F5060006B0E9F /* Feature */,
 				FCD9B2AE294F4E28006B0E9F /* AppDelegate.swift */,
 				FCD9B2B0294F4E28006B0E9F /* SceneDelegate.swift */,
-				FCD9B2B2294F4E28006B0E9F /* ViewController.swift */,
-				FCD9B2B4294F4E28006B0E9F /* Main.storyboard */,
 				FCD9B2B7294F4E2B006B0E9F /* Assets.xcassets */,
 				FCD9B2B9294F4E2B006B0E9F /* LaunchScreen.storyboard */,
 				FCD9B2BC294F4E2B006B0E9F /* Info.plist */,
@@ -127,6 +188,178 @@
 			path = "hearthstone-cardsUITests";
 			sourceTree = "<group>";
 		};
+		FCD9B2DE294F5060006B0E9F /* Feature */ = {
+			isa = PBXGroup;
+			children = (
+				FCD9B30F2950D502006B0E9F /* card */,
+				FCD9B2DF294F5068006B0E9F /* home */,
+			);
+			path = Feature;
+			sourceTree = "<group>";
+		};
+		FCD9B2DF294F5068006B0E9F /* home */ = {
+			isa = PBXGroup;
+			children = (
+				FCD9B2E1294F520E006B0E9F /* Model */,
+				FCD9B2E2294F5213006B0E9F /* Service */,
+				FCD9B2E3294F521C006B0E9F /* UI */,
+				FCD9B2E4294F5220006B0E9F /* UseCase */,
+				FCD9B2E5294F5229006B0E9F /* ViewModel */,
+			);
+			path = home;
+			sourceTree = "<group>";
+		};
+		FCD9B2E1294F520E006B0E9F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FCD9B2FC2950935F006B0E9F /* Card.swift */,
+				FCD9B2FF29509B3E006B0E9F /* Mechanic.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FCD9B2E2294F5213006B0E9F /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				FCD9B2F729509336006B0E9F /* HomeService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		FCD9B2E3294F521C006B0E9F /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				FCD9B33129510EE0006B0E9F /* HomeViewController.swift */,
+				FCD9B33529512708006B0E9F /* HomeView.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		FCD9B2E4294F5220006B0E9F /* UseCase */ = {
+			isa = PBXGroup;
+			children = (
+				FCD9B2F929509349006B0E9F /* HomeUseCase.swift */,
+			);
+			path = UseCase;
+			sourceTree = "<group>";
+		};
+		FCD9B2E5294F5229006B0E9F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				FCD9B2F52950932B006B0E9F /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		FCD9B2E9294F52B7006B0E9F /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				FCD9B2EA294F52C8006B0E9F /* CodeView.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		FCD9B2EC294F52FC006B0E9F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FCD9B2ED294F5318006B0E9F /* UIView+Layout.swift */,
+				FCD9B32B29510B88006B0E9F /* Resolver+Extension.swift */,
+				FCD9B32D29510CBB006B0E9F /* UIViewController+Extension.swift */,
+				FCD9B33C2951439E006B0E9F /* UITableView+Extension.swift */,
+				FCD9B33E2951454C006B0E9F /* UIImageView+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		FCD9B30129509D5E006B0E9F /* Provider */ = {
+			isa = PBXGroup;
+			children = (
+				FCD9B30229509D6F006B0E9F /* BaseAlamofireProvider.swift */,
+			);
+			path = Provider;
+			sourceTree = "<group>";
+		};
+		FCD9B30429509DB6006B0E9F /* Interceptor */ = {
+			isa = PBXGroup;
+			children = (
+				FCD9B30529509DC0006B0E9F /* NetworkCheckerInterceptor.swift */,
+			);
+			path = Interceptor;
+			sourceTree = "<group>";
+		};
+		FCD9B30729509E22006B0E9F /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				FCD9B30829509E30006B0E9F /* NetworkCheckerManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		FCD9B30F2950D502006B0E9F /* card */ = {
+			isa = PBXGroup;
+			children = (
+				FCD9B3112950D514006B0E9F /* Service */,
+				FCD9B3122950D51C006B0E9F /* UI */,
+				FCD9B3132950D522006B0E9F /* UseCase */,
+				FCD9B3142950D528006B0E9F /* ViewModel */,
+			);
+			path = card;
+			sourceTree = "<group>";
+		};
+		FCD9B3112950D514006B0E9F /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				FCD9B3152950D553006B0E9F /* CardService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		FCD9B3122950D51C006B0E9F /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				FCD9B337295142DA006B0E9F /* cell */,
+				FCD9B3172950D55F006B0E9F /* CardViewController.swift */,
+				FCD9B3192950D567006B0E9F /* CardView.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		FCD9B3132950D522006B0E9F /* UseCase */ = {
+			isa = PBXGroup;
+			children = (
+				FCD9B31B2950D570006B0E9F /* CardUseCase.swift */,
+			);
+			path = UseCase;
+			sourceTree = "<group>";
+		};
+		FCD9B3142950D528006B0E9F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				FCD9B31D2950D578006B0E9F /* CardViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		FCD9B31F2951090B006B0E9F /* Dependency */ = {
+			isa = PBXGroup;
+			children = (
+				FCD9B32129510925006B0E9F /* MainModule.swift */,
+				FCD9B32729510996006B0E9F /* ApplicationContainer.swift */,
+				FCD9B329295109B5006B0E9F /* Scope.swift */,
+				FCD9B32F29510D6D006B0E9F /* Injected.swift */,
+			);
+			path = Dependency;
+			sourceTree = "<group>";
+		};
+		FCD9B337295142DA006B0E9F /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				FCD9B33829514300006B0E9F /* CardImageTableViewCell.swift */,
+				FCD9B33929514300006B0E9F /* CardImageTableViewCell.xib */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +376,11 @@
 			dependencies = (
 			);
 			name = "hearthstone-cards";
+			packageProductDependencies = (
+				FCD9B2F029509212006B0E9F /* Alamofire */,
+				FCD9B3242951095F006B0E9F /* Swinject */,
+				FCD9B341295147D5006B0E9F /* Kingfisher */,
+			);
 			productName = "hearthstone-cards";
 			productReference = FCD9B2AB294F4E28006B0E9F /* hearthstone-cards.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +453,11 @@
 				Base,
 			);
 			mainGroup = FCD9B2A2294F4E28006B0E9F;
+			packageReferences = (
+				FCD9B2EF29509212006B0E9F /* XCRemoteSwiftPackageReference "Alamofire" */,
+				FCD9B3232951095F006B0E9F /* XCRemoteSwiftPackageReference "Swinject" */,
+				FCD9B340295147D5006B0E9F /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = FCD9B2AC294F4E28006B0E9F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -232,8 +475,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				FCD9B2BB294F4E2B006B0E9F /* LaunchScreen.storyboard in Resources */,
+				FCD9B33B29514300006B0E9F /* CardImageTableViewCell.xib in Resources */,
 				FCD9B2B8294F4E2B006B0E9F /* Assets.xcassets in Resources */,
-				FCD9B2B6294F4E28006B0E9F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +501,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FCD9B2B3294F4E28006B0E9F /* ViewController.swift in Sources */,
+				FCD9B32E29510CBB006B0E9F /* UIViewController+Extension.swift in Sources */,
+				FCD9B2FA29509349006B0E9F /* HomeUseCase.swift in Sources */,
+				FCD9B33F2951454C006B0E9F /* UIImageView+Extension.swift in Sources */,
+				FCD9B2F62950932B006B0E9F /* HomeViewModel.swift in Sources */,
+				FCD9B33629512708006B0E9F /* HomeView.swift in Sources */,
+				FCD9B30329509D6F006B0E9F /* BaseAlamofireProvider.swift in Sources */,
+				FCD9B2EE294F5318006B0E9F /* UIView+Layout.swift in Sources */,
+				FCD9B31A2950D567006B0E9F /* CardView.swift in Sources */,
+				FCD9B30929509E30006B0E9F /* NetworkCheckerManager.swift in Sources */,
+				FCD9B32A295109B5006B0E9F /* Scope.swift in Sources */,
+				FCD9B33A29514300006B0E9F /* CardImageTableViewCell.swift in Sources */,
+				FCD9B32829510996006B0E9F /* ApplicationContainer.swift in Sources */,
+				FCD9B33D2951439E006B0E9F /* UITableView+Extension.swift in Sources */,
+				FCD9B33329510EE0006B0E9F /* HomeViewController.swift in Sources */,
 				FCD9B2AF294F4E28006B0E9F /* AppDelegate.swift in Sources */,
+				FCD9B3162950D553006B0E9F /* CardService.swift in Sources */,
+				FCD9B31C2950D570006B0E9F /* CardUseCase.swift in Sources */,
+				FCD9B30029509B3E006B0E9F /* Mechanic.swift in Sources */,
+				FCD9B32229510925006B0E9F /* MainModule.swift in Sources */,
+				FCD9B30629509DC0006B0E9F /* NetworkCheckerInterceptor.swift in Sources */,
+				FCD9B2EB294F52C8006B0E9F /* CodeView.swift in Sources */,
+				FCD9B32C29510B88006B0E9F /* Resolver+Extension.swift in Sources */,
+				FCD9B3182950D55F006B0E9F /* CardViewController.swift in Sources */,
+				FCD9B33029510D6D006B0E9F /* Injected.swift in Sources */,
+				FCD9B2FD2950935F006B0E9F /* Card.swift in Sources */,
+				FCD9B2F829509336006B0E9F /* HomeService.swift in Sources */,
 				FCD9B2B1294F4E28006B0E9F /* SceneDelegate.swift in Sources */,
+				FCD9B31E2950D578006B0E9F /* CardViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +565,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		FCD9B2B4294F4E28006B0E9F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FCD9B2B5294F4E28006B0E9F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		FCD9B2B9294F4E2B006B0E9F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -441,7 +701,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "hearthstone-cards/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -469,7 +729,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "hearthstone-cards/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -602,6 +862,51 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FCD9B2EF29509212006B0E9F /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		FCD9B3232951095F006B0E9F /* XCRemoteSwiftPackageReference "Swinject" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Swinject/Swinject.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		FCD9B340295147D5006B0E9F /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FCD9B2F029509212006B0E9F /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FCD9B2EF29509212006B0E9F /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		FCD9B3242951095F006B0E9F /* Swinject */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FCD9B3232951095F006B0E9F /* XCRemoteSwiftPackageReference "Swinject" */;
+			productName = Swinject;
+		};
+		FCD9B341295147D5006B0E9F /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FCD9B340295147D5006B0E9F /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = FCD9B2A3294F4E28006B0E9F /* Project object */;
 }
